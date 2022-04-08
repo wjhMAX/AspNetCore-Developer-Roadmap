@@ -1,33 +1,72 @@
 # ASP.NET Core开发者指南
 
-- [简体中文 ReadMe](ReadMe.zh-Hans.md)
+##  软件与环境
 
-> 2022年 [ASP.NET Core](https://docs.microsoft.com/zh-cn/aspnet/core/) 开发者指南：
+#### 资源下载地址
+ (ftp://124.71.238.108:20001): 打开我的电脑在地址栏里输入或者用ie打开
+#### 软件与教程
+- ##### **Teams** 
+  
+  - 下载  
+      [微软官方下载地址](https://www.microsoft.com/zh-cn/microsoft-teams/group-chat-software/)  
 
-在下面，您可以看到一个图，说明可以采用的路径以及要成为ASP.NET Core开发人员所想要学习的库。我将此图作为提示，给所有问我"作为ASP.NET Core开发人员，接下来应该学习什么？"的人。
+- ##### **Visual Studio**
+  
+  - 下载  
+      [微软官方下载地址](https://visualstudio.microsoft.com/zh-hans/)：官网上免费下载最新社区版  
+      资源库： /常用工具 有VS2021  
+  - 学习  
+      [VS快捷键](https://blog.csdn.net/kangjielearning/article/details/106432189?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164940711316780274158310%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164940711316780274158310&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-106432189.142^v7^pc_search_result_control_group,157^v4^new_style&utm_term=vs%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187)  
+      [VS快捷键（包含记忆的口诀和演示）](https://blog.csdn.net/weixin_41424481/article/details/109049926?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164940711316780274158310%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164940711316780274158310&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-109049926.142^v7^pc_search_result_control_group,157^v4^new_style&utm_term=vs%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187)
+- ##### **Git**
+  
+  - 下载  
+      资源库 /常用工具/tools 版本：Git-2.20.1-64-bit  
+  - 学习  
+    [在线学习Git命令](https://learngitbranching.js.org/?locale=zh_CN)  
+    [参考教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
-## 免责声明
+- ##### **GitExtensions**
 
-> 该指南的目的是为了给读者心有个大概的轮廓。如果你对接下来要学习的内容感到困惑时，这张路线图将指导你，而不是鼓励你选择时髦的东西。你应该逐渐理解为什么一种工具比另一种工具更适合某些场景，并且记住时髦和新颖的东西并不总是意味着最适合这个工作。
+  - 下载  
+    资源库 /常用工具/tools 版本：GitExtensions246SetupComplete
 
-## 请给一个星星! :star:
+- ##### **PostgreSQL**
+  
+  - 下载  
+      数据库装在服务器上 
+  - 学习   
+      [菜鸟教程](https://www.runoob.com/postgresql/postgresql-tutorial.html)：pgsql基本语法
 
-如果你喜欢或正在使用这个项目进行学习或引用在你的解决方案中，请给它一个星星。谢谢!
+- ##### **pgAdmin**
+  
+  - 下载  
+      资源库 /国产化相关/数据库/PostgreSQL/Windows pgadmin4-6.7-x64
 
-## 路线图
+## 2.开发
 
-![路线图](./aspnetcore-developer-roadmap.zh-Hans.png)
+#### 1.学习先决条件
 
-## 资源
-
-1. 学习先决条件
-
-   - [C#](https://www.pluralsight.com/paths/csharp)
-   - [.NET 6](https://devblogs.microsoft.com/dotnet/announcing-net-6)
-   - [Entity Framework](https://www.pluralsight.com/search?q=entity%20framework%20core)
-   - [Dapper](https://github.com/StackExchange/Dapper)
-   - [NHibernate](https://github.com/nhibernate/nhibernate-core)
-   - [ASP.NET Core](https://www.pluralsight.com/search?q=asp.net%20core)
+  - #####  **Markdown**  
+     [Markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed): Markdown基本语法  
+     [马克飞象](https://maxiang.io/)：可以预览的在线编辑Markdown网站 
+   - #####  **C#**
+        (https://www.pluralsight.com/paths/csharp) 原作者推荐的国外学习C#网站，可以访问网站，但是看视频要vpn，英文原生无字幕。
+        (https://docs.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp/) 微软官方C#文档
+        (https://www.runoob.com/csharp/csharp-tutorial.html) C# 菜鸟教程，数据全但是解释的很简单
+   - [.NET 6]
+        (https://devblogs.microsoft.com/dotnet/announcing-net-6) 微软官方.net6文档
+   - [Entity Framework]
+        (https://www.pluralsight.com/search?q=entity%20framework%20core) 原作者推荐的国外EF框架学习网站，同C#第一个
+        (https://docs.microsoft.com/zh-cn/ef/core/get-started/overview/first-app?tabs=netcore-cli) 微软官方EF框架文档
+        (https://www.cnblogs.com/wyy1234/p/9650759.html) 中文博客翻译自(http://www.entityframeworktutorial.net/)
+   - [Dapper]
+        (https://github.com/StackExchange/Dapper) Dapper是一款轻量级ORM工具，链接是github上学习Dapper的一个仓库
+   - [NHibernate]
+        (https://github.com/nhibernate/nhibernate-core)NHibernate是一个面向.NET环境的对象/关系数据库映射工具，链接是github上学习NHibernate的一个仓库
+   - [ASP.NET Core]
+        (https://www.pluralsight.com/search?q=asp.net%20core) 原作者推荐的国外学习ASP.NET Core学习网站，同C#第一个
+ 
    - SQL 基础知识
 
 2. 通用开发技能
@@ -235,22 +274,4 @@
     - [NodaTime](https://github.com/nodatime/nodatime)
     - [GenFu](https://github.com/MisterJames/GenFu)
     - [Swashbuckle](https://github.com/domaindrivendev/Swashbuckle.AspNetCore)
-
-## 总结
-
-如果你认为该指南可以改进，请提交包含任何更新的 PR 并提交任何问题。此外，我将继续改进这个仓库，因此你可以 star 这个仓库以便于重新访问。
-
-灵感来源： [React Developer RoadMap](https://github.com/adam-golab/react-developer-roadmap)
-
-## 贡献
-
-该指南是使用 [xMind](https://www.xmind.net/) 构建的。中文版项目文件为`aspnetcore-developer-roadmap.zh-Hans.xmind`。要修改它, 在[此处](https://www.xmind.net/download/)下载 xMind, 点击 **Open File** 并选择项目中的 `xmind` 文件。它将为你渲染生成路线图，更新它，上传和更新 readme 中的图像并创建一个 PR（使用[Compressor.io](https://compressor.io/compress)压缩导出的PNG；不过中国无法访问，用PS吧）。
-
-- 改进后提交 PR
-- 在 Issues 中讨论问题
-- 推广项目
-
-## 许可协议
-
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
