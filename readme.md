@@ -47,6 +47,9 @@
 
 #### 1.学习先决条件
 
+  - #####  **Ajax**  
+     [jQuery中ajax的基本使用](https://blog.csdn.net/weixin_45849779/article/details/107740279)
+
   - #####  **Markdown**  
      [Markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed): Markdown基本语法  
      [马克飞象](https://maxiang.io/)：可以预览的在线编辑Markdown网站 
