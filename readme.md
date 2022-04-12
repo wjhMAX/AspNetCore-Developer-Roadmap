@@ -6,71 +6,59 @@
  (ftp://124.71.238.108:20001): 打开我的电脑在地址栏里输入或者用ie打开
 #### 软件与教程
 - ##### **Teams** 
-  
-  - 下载  
-      [微软官方下载地址](https://www.microsoft.com/zh-cn/microsoft-teams/group-chat-software/)  
+    
+     [微软官方下载地址](https://www.microsoft.com/zh-cn/microsoft-teams/group-chat-software/)  
 
 - ##### **Visual Studio**
   
-  - 下载  
-      [微软官方下载地址](https://visualstudio.microsoft.com/zh-hans/)：官网上免费下载最新社区版  
-      资源库： /常用工具 有VS2021  
-  - 学习  
+     资源库： /常用工具 有VS2021  
+     [微软官方下载地址](https://visualstudio.microsoft.com/zh-hans/)：官网上免费下载最新社区版     
       [VS快捷键](https://blog.csdn.net/kangjielearning/article/details/106432189?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164940711316780274158310%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164940711316780274158310&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-106432189.142^v7^pc_search_result_control_group,157^v4^new_style&utm_term=vs%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187)  
       [VS快捷键（包含记忆的口诀和演示）](https://blog.csdn.net/weixin_41424481/article/details/109049926?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522164940711316780274158310%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=164940711316780274158310&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_click~default-2-109049926.142^v7^pc_search_result_control_group,157^v4^new_style&utm_term=vs%E5%BF%AB%E6%8D%B7%E9%94%AE&spm=1018.2226.3001.4187)
 - ##### **Git**
-  
-  - 下载  
-      资源库 /常用工具/tools 版本：Git-2.20.1-64-bit  
-  - 学习  
+   
+    资源库 /常用工具/tools 版本：Git-2.20.1-64-bit    
     [在线学习Git命令](https://learngitbranching.js.org/?locale=zh_CN)  
     [参考教程](https://www.liaoxuefeng.com/wiki/896043488029600)
 
 - ##### **GitExtensions**
 
-  - 下载  
-    资源库 /常用工具/tools 版本：GitExtensions246SetupComplete
+    资源库 /常用工具/tools 版本:GitExtensions246SetupComplete
 
 - ##### **PostgreSQL**
   
-  - 下载  
-      数据库装在服务器上 
-  - 学习   
+ 
+     数据库装在服务器上    
       [菜鸟教程](https://www.runoob.com/postgresql/postgresql-tutorial.html)：pgsql基本语法
 
 - ##### **pgAdmin**
   
-  - 下载  
-      资源库 /国产化相关/数据库/PostgreSQL/Windows pgadmin4-6.7-x64
+
+     资源库 /国产化相关/数据库/PostgreSQL/Windows pgadmin4-6.7-x64
 
 ## 2.开发
 
-#### 1.学习先决条件
-
+   - #####  **C#**
+        [微软官方C#文档](https://docs.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp/)  
+        [C# 菜鸟教程](https://www.runoob.com/csharp/csharp-tutorial.html)，数据全但是解释的很简单
   - #####  **Ajax**  
      [jQuery中ajax的基本使用](https://blog.csdn.net/weixin_45849779/article/details/107740279)
 
   - #####  **Markdown**  
      [Markdown语法学习](https://www.jianshu.com/p/191d1e21f7ed): Markdown基本语法  
      [马克飞象](https://maxiang.io/)：可以预览的在线编辑Markdown网站 
-   - #####  **C#**
-        (https://www.pluralsight.com/paths/csharp) 原作者推荐的国外学习C#网站，可以访问网站，但是看视频要vpn，英文原生无字幕。
-        (https://docs.microsoft.com/zh-cn/dotnet/csharp/tour-of-csharp/) 微软官方C#文档
-        (https://www.runoob.com/csharp/csharp-tutorial.html) C# 菜鸟教程，数据全但是解释的很简单
-   - [.NET 6]
-        (https://devblogs.microsoft.com/dotnet/announcing-net-6) 微软官方.net6文档
-   - [Entity Framework]
-        (https://www.pluralsight.com/search?q=entity%20framework%20core) 原作者推荐的国外EF框架学习网站，同C#第一个
-        (https://docs.microsoft.com/zh-cn/ef/core/get-started/overview/first-app?tabs=netcore-cli) 微软官方EF框架文档
-        (https://www.cnblogs.com/wyy1234/p/9650759.html) 中文博客翻译自(http://www.entityframeworktutorial.net/)
-   - [Dapper]
-        (https://github.com/StackExchange/Dapper) Dapper是一款轻量级ORM工具，链接是github上学习Dapper的一个仓库
-   - [NHibernate]
-        (https://github.com/nhibernate/nhibernate-core)NHibernate是一个面向.NET环境的对象/关系数据库映射工具，链接是github上学习NHibernate的一个仓库
-   - [ASP.NET Core]
-        (https://www.pluralsight.com/search?q=asp.net%20core) 原作者推荐的国外学习ASP.NET Core学习网站，同C#第一个
  
-   - SQL 基础知识
+  - #####  **.Net6** 
+       [微软官方.net6文档](https://devblogs.microsoft.com/dotnet/announcing-net-6)
+  - #####  **Entity Framework** 
+      [微软官方EF框架文档](https://docs.microsoft.com/zh-cn/ef/core/get-started/overview/first-app?tabs=netcore-cli)  
+      [中文博客](https://www.cnblogs.com/wyy1234/p/9650759.html)翻译自 (http://www.entityframeworktutorial.net/)
+  - #####  **Dapper** 
+       Dapper是一款轻量级ORM工具:[github上学习Dapper的一个仓库](https://github.com/StackExchange/Dapper)
+ 
+  - #####  **ASP.NET Core** 
+       [b站教程](https://www.bilibili.com/video/BV1wb411W7aB?p=1)(需要C#基础)
+ 
 
 2. 通用开发技能
 
@@ -121,9 +109,7 @@
       2. [PostgreSQL](https://www.postgresql.org)
       3. [MariaDB](https://mariadb.org)
       4. [MySQL](https://www.mysql.com)
-   2. 云数据库
-      - [CosmosDB](https://docs.microsoft.com/zh-cn/azure/cosmos-db/)
-      - [DynamoDB](https://aws.amazon.com/cn/dynamodb/)
+
    3. 搜索引擎
       - [ElasticSearch](https://www.elastic.co)
       - [Solr](http://lucene.apache.org/solr)
@@ -131,10 +117,7 @@
    4. NoSQL
       - [Redis](https://redis.io)
       - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app)
-      - [Apache Cassandra](http://cassandra.apache.org)
-      - [LiteDB](https://github.com/mbdavid/LiteDB)
-      - [RavenDB](https://github.com/ravendb/ravendb)
-      - [CouchDB](http://couchdb.apache.org)
+
 
 7. 缓存
 
@@ -151,7 +134,7 @@
 8. 日志
 
    1. 日志框架
-      - [Serilog](https://github.com/serilog/serilog)
+
       - [NLog](https://github.com/NLog/NLog)
    2. 日志管理系统
       - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
@@ -165,9 +148,7 @@
        - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
        - [Sieve](https://github.com/Biarity/Sieve)
     2. [gRPC](https://docs.microsoft.com/zh-cn/aspnet/core/grpc)
-    3. GraphQL
-       - [HotChocolate](https://github.com/ChilliCream/hotchocolate)
-       - [GraphQL-dotnet](https://github.com/graphql-dotnet/graphql-dotnet)
+
 
 10. 实时通信
 
@@ -217,10 +198,10 @@
 
     1. 消息总线
        - [RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
-       - [Apache Kafka](https://github.com/confluentinc/confluent-kafka-dotnet)
+ 
        - [ActiveMQ](https://github.com/apache/activemq)
-       - [Azure Service Bus](https://docs.microsoft.com/zh-cn/azure/service-bus-messaging/service-bus-messaging-overview)
-       - [NetMQ](https://github.com/zeromq/netmq)
+      
+
     2. 消息队列
        - [MassTransit](https://github.com/MassTransit/MassTransit)
        - [NServiceBus](https://github.com/Particular/NServiceBus)
@@ -244,10 +225,9 @@
 15. 持续集成与部署
     - [Github Actions](https://github.com/features/actions)
     - [Azure Pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines/)
-    - [Travis CI](https://travis-ci.org)
+
     - [Jenkins](https://www.jenkins.io)
-    - [Circle CI](https://circleci.com)
-    - [TeamCity](https://www.jetbrains.com/teamcity)
+
 
 16. 设计模式
 
