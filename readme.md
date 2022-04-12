@@ -56,11 +56,22 @@
   - #####  **Dapper** 
        Dapper是一款轻量级ORM工具:[github上学习Dapper的一个仓库](https://github.com/StackExchange/Dapper)
  
-  - #####  **ASP.NET Core** 
-       [b站教程](https://www.bilibili.com/video/BV1wb411W7aB?p=1)(需要C#基础)
- 
+  - #####  **ASP.NET Core 基础** 
+    - [b站教程](https://www.bilibili.com/video/BV1wb411W7aB?p=1)(需要C#基础)  
+    - [MVC](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/overview?view=aspnetcore-6.0)  
+    - [使用.NET Core 创建Wab API](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)  
+    - [Razor Pages](https://docs.microsoft.com/zh-cn/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)  
+    - [Razor 组件](https://docs.microsoft.com/zh-cn/aspnet/core/blazor/components/?view=aspnetcore-6.0)  
+    - [中间件](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)  
+    - [筛选器](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)  
+    - [配置](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)  
+    - [身份验证概述](https://docs.microsoft.com/zh-cn/aspnet/core/security/authentication/?view=aspnetcore-6.0)  
+    - [授权简介](https://docs.microsoft.com/zh-cn/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)  
+    - [IdentityServer](https://identityserver4docs.readthedocs.io/zh_CN/latest/index.html):使用 ASP.NET Core实现了OpenID和OAuth 2.0协议的身份认证框架   
+    - [Auth0](https://auth0.com/docs)：提供了验证和授权的服务  
+    - [OIDC](https://openid.net/connect)：OIDC（OpenID Connect）是在OAuth2上构建了一个身份层，是一个基于OAuth2协议的身份认证标准协议  
 
-2. 通用开发技能
+   #####  **2. 通用开发技能** 
 
    - 学习GIT 并且在 GitHub 中创建与分享项目
    - 掌握 HTTP(S) 协议与请求方法 (GET, POST, PUT, PATCH, DELETE, OPTIONS)
@@ -68,22 +79,8 @@
    - 学习 [dotnet CLI](https://docs.microsoft.com/zh-cn/dotnet/core/tools/)
    - 阅读一些关于算法和数据结构的书籍
 
-3. ASP.NET Core 基础
 
-   - [MVC](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/overview?view=aspnetcore-6.0)
-   - [REST](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-web-api?view=aspnetcore-6.0&tabs=visual-studio)
-   - [Razor Pages](https://docs.microsoft.com/zh-cn/aspnet/core/razor-pages/?view=aspnetcore-6.0&tabs=visual-studio)
-   - [Razor Components](https://docs.microsoft.com/zh-cn/aspnet/core/blazor/components/?view=aspnetcore-6.0)
-   - [Middlewares](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/?view=aspnetcore-6.0)
-   - [Filters & Attributes](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters?view=aspnetcore-6.0)
-   - [Application Settings & Configurations](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/configuration/?view=aspnetcore-6.0)
-   - [Authentication](https://docs.microsoft.com/zh-cn/aspnet/core/security/authentication/?view=aspnetcore-6.0)
-   - [Authorization](https://docs.microsoft.com/zh-cn/aspnet/core/security/authorization/introduction?view=aspnetcore-6.0)
-   - [IdentityServer](https://identityserver4.readthedocs.io/en/latest)
-   - [Auth0](https://auth0.com/docs)
-   - [OIDC](https://openid.net/connect)
-
-4. SOLID
+4. SOLID 原则
 
     - [单一责任原则 (SRP)](https://www.dotnetcurry.com/software-gardening/1148/solid-single-responsibility-principle)
     - [开放封闭原则 (OCP)](https://www.dotnetcurry.com/software-gardening/1176/solid-open-closed-principle)
@@ -94,29 +91,29 @@
 5. 依赖注入
 
    1. DI 容器
-      - [Microsoft.Extensions.DependencyInjection](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection)
-      - [AutoFac](https://autofaccn.readthedocs.io/en/latest/integration/aspnetcore.html)
-      - [Ninject](http://www.ninject.org)
-      - [Castle Windsor](https://github.com/castleproject/Windsor)
+      - [微软官方文档](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection)
+      - [AutoFac](https://autofac.coderbusy.com/en/latest/)：IOC容器
+      - [Ninject](http://www.ninject.org)：快如闪电、超轻量级的基于.Net平台的依赖注入框架
+      - [Castle Windsor](https://www.bookstack.cn/read/Windsor-doc-cn/docs-README.md)：最好最成熟的 IoC容器
 	  - [Simple Injector](https://github.com/simpleinjector/SimpleInjector)
    2. [生命周期](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/dependency-injection#service-lifetimes)
-   3. [Scrutor](https://github.com/khellang/Scrutor)
+   3. [Scrutor](https://github.com/khellang/Scrutor)：有时候可能并不需要使用像Autofac这样功能这么多的DI框架，可以考虑使用Sructor，很贴近原生DI框架，十分轻量
 
 6. 数据库
 
    1. 关系型
       1. [SQL Server](https://www.microsoft.com/zh-cn/sql-server/sql-server-2019)
       2. [PostgreSQL](https://www.postgresql.org)
-      3. [MariaDB](https://mariadb.org)
+      3. [MariaDB](https://mariadb.org): MariaDB是MySQL关系数据库管理系统的一个分支
       4. [MySQL](https://www.mysql.com)
 
    3. 搜索引擎
-      - [ElasticSearch](https://www.elastic.co)
-      - [Solr](http://lucene.apache.org/solr)
-      - [Sphinx](http://sphinxsearch.com)
+      - [ElasticSearch](https://www.elastic.co)：分布式可扩展的实时搜索和分析引擎
+      - [Solr](http://lucene.apache.org/solr)：独立的企业级搜索应用服务器，它对外提供类似于Web-service的API接口
+      - [Sphinx](http://sphinxsearch.com)：基于SQL的全文检索引擎，可以结合MySQL,PostgreSQL做全文搜索，它可以提供比数据库本身更专业的搜索功能，使得应用程序更容易实现专业化的全文检索
    4. NoSQL
       - [Redis](https://redis.io)
-      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app)
+      - [MongoDB](https://docs.microsoft.com/zh-cn/aspnet/core/tutorials/first-mongo-app)：基于分布式文件存储的数据库
 
 
 7. 缓存
@@ -124,9 +121,9 @@
    1. [内存缓存](https://docs.microsoft.com/zh-cn/aspnet/core/performance/caching/memory)
    2. [分布式缓存](https://docs.microsoft.com/zh-cn/aspnet/core/performance/caching/distributed)
       1. [Redis](https://redis.io/)
-         1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)
-         2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)
-      2. [Memcached](https://memcached.org)
+         1. [StackExchange.Redis](https://stackexchange.github.io/StackExchange.Redis)：C# 操作 Redis 数据库的客户端
+         2. [EasyCaching](https://github.com/dotnetcore/EasyCaching)：更加方便的操作缓存
+      2. [Memcached](https://memcached.org)：自由开源的，高性能，分布式内存对象缓存系统
    3. Entity Framework 二级缓存
       1. [EFSecondLevelCache.Core](https://github.com/VahidN/EFSecondLevelCache.Core)
       2. [EntityFrameworkCore.Cacheable](https://github.com/SteffenMangold/EntityFrameworkCore.Cacheable)
@@ -135,32 +132,35 @@
 
    1. 日志框架
 
-      - [NLog](https://github.com/NLog/NLog)
+      - [NLog](https://github.com/NLog/NLog)：基于.NET平台编写的类库，我们可以使用NLog在应用程序中添加极为完善的跟踪调试代码
    2. 日志管理系统
-      - [ELK Stack](https://www.elastic.co/what-is/elk-stack)
-      - [Sentry.io](http://sentry.io)
+      - [ELK Stack](https://www.elastic.co/what-is/elk-stack)：
+      >分别是Elasticsearch：负责日志检索和储存  
+      >Logstash：负责日志的收集和分析、处理  
+      >Kibana：负责日志的可视化
+      - [Sentry.io](http://sentry.io)：Sentry用于监控错误
       - [Loggly.com](https://loggly.com)
       - [Elmah.io](http://elmah.io)
       
 9. API客户端和通信
 
     1. REST
-       - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)
+       - [OData](https://devblogs.microsoft.com/odata/experimenting-with-odata-in-asp-net-core-3-1)：开源的协定，以简单和标准的方法，来建造或消除可查询和可操作的RESTful API
        - [Sieve](https://github.com/Biarity/Sieve)
-    2. [gRPC](https://docs.microsoft.com/zh-cn/aspnet/core/grpc)
+    2. [gRPC](https://docs.microsoft.com/zh-cn/aspnet/core/grpc)：高性能、开源和通用的 RPC 框架
 
 
 10. 实时通信
 
-   - [SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/signalr/introduction)
-   - [WebSockets](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/websockets)
+   - [SignalR](https://docs.microsoft.com/zh-cn/aspnet/core/signalr/introduction)：简化开发人员将实时 Web 功能添加到应用程序的过程的一个库
+   - [WebSockets](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/websockets)：在单个TCP连接上进行全双工通信的协议
    
 11. 对象映射
 
-   - [AutoMapper](https://github.com/AutoMapper/AutoMapper)
-   - [Mapster](https://github.com/MapsterMapper/Mapster)
-   - [ExpressMapper](http://expressmapper.org/)
-   - [AgileMapper](https://github.com/agileobjects/AgileMapper)
+   - [AutoMapper](https://github.com/AutoMapper/AutoMapper)：对象到对象的映射工具。在完成映射规则之后，AutoMapper可以将源对象转换为目标对象
+   - [Mapster](https://github.com/MapsterMapper/Mapster)：.Net对象映射类库比AutoMapper跟好用，更方便，学习成本更低
+   - [ExpressMapper](http://expressmapper.org/)：自动映射
+   - [AgileMapper](https://github.com/agileobjects/AgileMapper)：零配置、高度可配置的对象-对象映射器,具有可查看的执行计划,目标是.NET Standard 1.0+和.NET 3.5+.他执行查询映射、对象创建、深度克隆、id感知更新和合并,可以通过扩展方法、静态API或实例API使用.
    
 12. 任务调度
 
